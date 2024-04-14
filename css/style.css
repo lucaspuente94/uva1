@@ -56,3 +56,14 @@ img {
 .item-navbar:hover{
     color:#c5c8cd
 }
+
+.navbar-custom {
+    background-color: black;
+}
+.navbar-custom .navbar-toggler {
+    color: #fff; 
+    border-color: #fff;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff; 
+}
