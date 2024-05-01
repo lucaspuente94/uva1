@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <a href="" target="_blank"><img src="./img/logo.jpg" alt="Logo"/></a>
+        <a href="" target="_blank"><img src="./img/logo.png" alt="Logo"/></a>
         <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
@@ -50,13 +50,80 @@
 
 
     <section id="modelos">
-        <h2>Últimos Modelos de iPhone</h2>
-        <ul>
-            <li> <a href="https://www.apple.com/la/iphone-15-pro/" target="_blank">iPhone 15 Pro Max</a> - El último modelo de iPhone con pantalla Super Retina XDR, cámara Pro de triple sistema, y el chip A15 Bionic para un rendimiento excepcional.</li>
-            <li> <a href="https://www.apple.com/la/iphone-15/" target="_blank">iPhone 15 </a> - La versión compacta del iPhone 13 Pro Max, con todas las características avanzadas en un tamaño más manejable.</li>
-            <li><a href="https://www.apple.com/la/iphone-14/specs/" target="_blank">iPhone 14 </a> - Una opción popular con pantalla Super Retina XDR, diseño renovado, y el chip A15 Bionic para un rendimiento eficiente.</li>
-            <li><a href="https://www.apple.com/la/iphone-13/specs/" target="_blank">iPhone 13 </a> - La versión compacta del iPhone 12 con todas las características esenciales en un diseño pequeño y ligero.</li>
-        </ul>
+        <h2 style="color:#fca311" class="mb-5">Últimos Modelos</h2>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-8">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./img/iphone15.jpg" class="d-block" alt="..." style="margin: auto;width: 300px;">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">iPhone 15 Pro Max</h5>
+                                            <p class="card-text">El último modelo de iPhone con pantalla Super Retina XDR, cámara Pro de triple sistema, y el chip A15 Bionic para un rendimiento excepcional.</p>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>               
+                    </div>
+                </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="./img/iphone13.jpg" class="d-block" alt="..." style="margin: auto;width: 215px;">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">iPhone 14</h5>
+                                        <p class="card-text">La versión compacta del iPhone 14, con todas las características avanzadas en un tamaño más manejable</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>               
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="./img/s23ultra.jpg" class="d-block" alt="..." style="margin: auto;width: 215px;">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Samsung S23Ultra</h5>
+                                        <p class="card-text">El último modelo de Samsung con pantalla OLED dinámica de 6.8 , cámara Pro de triple sistema, y el chip A15 Bionic para un rendimiento excepcional.</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>               
+                </div>
+            </div>
+
+
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
     </section>
 
     <section id="mision">
@@ -99,6 +166,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 </body>
 </body>
 </body>
